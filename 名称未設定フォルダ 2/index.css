@@ -1,0 +1,67 @@
+html, body {
+	background-color: #fff;
+	margin: 0px;
+	position: relative;
+	z-index: 1;
+}
+div.float-clear {
+	height: 0px;
+	clear: both;
+}
+div#content {
+	width: 100%;
+	margin: 0px;
+	color: #000;
+	background-color: #fff;
+	padding: 0px;
+	position: relative;
+	z-index: 2;
+}
+div#bar-parent-box {
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	z-index: 10;
+}
+div#bar-child-box {
+	width: 100%;
+	height: 60px;
+	color: #fff;
+	background-color: #E70D0D;
+	text-align: center;
+	margin: 0px;
+	float: left;
+	padding: 10px 0px 0px 0px;
+	position: relative;
+	-webkit-box-shadow: 1px 1px 3px #000;　/* Safari,Google Chrome用 */
+	-moz-box-shadow: 1px 1px 3px #000;　/* Firefox用 */ 
+}
+
+
+
+div#bar-ul.navigation {
+	width: 600px;
+	margin: 0px auto 0;
+	float: left;
+	z-index: 5;
+
+	
+}
+div#bar-ul.navigation:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+div#bar-ul.navigation li {
+	float: left;
+}
+
+
+div#main {
+	padding: 0px 5px;
+}
