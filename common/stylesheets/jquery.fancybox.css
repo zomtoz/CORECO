@@ -1,0 +1,154 @@
+
+
+#fancybox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 0;
+	display: none;
+}
+
+#fancybox-tmp {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: auto;
+	z-index: 0;
+    display: none;
+}
+
+#fancybox-wrap {
+	background-color: #E70D0D;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0px 21px 0px;
+	z-index: 0; 　/*ウィンドウ重なり*/
+	outline: none;
+	display: none;
+	box-shadow: 0px 1px 12px 1px 
+}
+
+#fancybox-outer {
+	width: 100%;
+	height: 100%;
+	background: #E70D0D;
+	z-index: 0;
+}
+
+
+#fancybox-content {
+	width: 0;
+	height: 0;
+	padding: 0;
+	outline: none;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	border: none !important;
+}
+
+#fancybox-close {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+	width: 21px;
+	height: 21px;
+	background: transparent url('../images/close.gif');
+	cursor: pointer;
+	z-index: 9999;
+	display: none;
+}
+
+#fancybox-error {
+	color: #444;
+	padding: 14px;
+	margin: 0;
+}
+
+#fancybox-img {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
+	line-height: 0;
+	vertical-align: top;
+}
+
+#fancybox-left, #fancybox-right {
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	outline: none;
+	background: transparent url('../images/fancybox/blank.gif');
+	z-index: 0;
+}
+
+#fancybox-left {
+	bottom: 44px;
+	left: 45px;
+}
+
+
+
+
+
+
+#fancybox-right {
+	bottom: 44px;
+	right: 45px;
+}
+
+#fancybox-left-ico,
+#fancybox-right-ico {
+	position: absolute;
+	cursor: pointer;
+	z-index: 0;
+	display: block;
+}
+
+#fancybox-left-ico {
+	background: url('../images/fancybox/prev.gif') 0 0 no-repeat;
+	height: 11px;
+	width: 64px;
+}
+
+#fancybox-right-ico {
+	background: url('../images/fancybox/next.gif') 0 0 no-repeat;
+	height: 11px;
+	width: 42px;
+}
+
+.fancybox-bg,
+#fancybox-bg-n,
+#fancybox-bg-ne,
+#fancybox-bg-e,
+#fancybox-bg-se,
+#fancybox-bg-s,
+#fancybox-bg-sw,
+#fancybox-bg-w,
+#fancybox-bg-nw {
+	display: none;
+}
+
+#fancybox-title {
+	font-size: 83.3%;
+	line-hegiht: 0.4;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0 !important;
+	z-index: 0;
+}
+
+.fancybox-title-outside {
+}
+
+#fancybox-content iframe {
+	width: 975px;
+	height: 800px;
+	z-index: 0;
+
+}

@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+address,
+cite,
+dfn,
+em,
+var {
+	font-style: normal;
+}
+blockquote {
+	margin: 0;
+}
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: sans-serif;
+	margin: 0;
+}
+caption {
+	text-align: left;
+}
+code,
+kbd,
+samp {
+	font-family: sans-serif;
+	font-size: 100%;
+}
+dd {
+	margin-left: 0;
+}
+del,
+ins {
+	text-decoration: none;
+}
+dl,
+form,
+p {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+input,
+select,
+textarea {
+	font-family: sans-serif;
+	font-size: 100%;
+	vertical-align: bottom;
+}
+legend {
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+ol,
+ul {
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 0;
+	padding-left: 0;
+}
+pre {
+	font-family: sans-serif;
+	font-size: 100%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+q:after,
+q:before {
+	content: "";
+}
+strong {
+	font-weight: normal;
+}
+sub {
+	vertical-align: text-bottom;
+}
+sup {
+	vertical-align: text-top;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: 100%;
+}
+td {
+	padding: 0;
+	vertical-align: top;
+}
+th {
+	font-weight: normal;
+	padding: 0;
+	text-align: left;
+	vertical-align: top;
+}
